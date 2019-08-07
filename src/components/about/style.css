@@ -1,0 +1,34 @@
+.infoBracket {
+  width: 500px;
+}
+.headline {
+  font-size: 72px;
+  font-weight: bolder;
+  color: #6a91be;
+  text-align: center;
+}
+
+.aboutMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 700px;
+}
+
+.aboutImg {
+  width: 300px;
+}
+
+.infoBracket {
+  width: 300px;
+}
+
+img {
+  width: 300px;
+}

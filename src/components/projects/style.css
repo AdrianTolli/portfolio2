@@ -1,0 +1,106 @@
+.headline {
+  font-size: 72px;
+  font-weight: bolder;
+  color: #6a91be;
+  text-align: center;
+}
+
+.projectsMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projectsContainer {
+}
+.projectText {
+  width: 899px;
+  border: 1px solid black;
+  margin-top: 474px;
+}
+
+.project {
+  visibility: hidden;
+  position: absolute;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: fit-content;
+  width: fit-content;
+  padding: 6px;
+}
+.button {
+  color: white;
+  background-color: #224781;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 6px;
+}
+.button:hover {
+  cursor: pointer;
+}
+
+.slide {
+  position: absolute;
+  height: 474px;
+  width: 900px;
+  z-index: -1;
+}
+
+.slideContainer {
+  position: absolute;
+  width: 900px;
+  height: 474px;
+}
+
+.SlideContainer img {
+  width: 100%;
+  height: auto;
+}
+
+.slideContainer .imgbutton {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  font-size: 16px;
+}
+.imgbutton:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.prev {
+  left: 0%;
+}
+.next {
+  right: 0%;
+}
+
+.slideCounter {
+  margin-top: 450px;
+  margin-left: 440px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dotted {
+  background-color: darkgray;
+}

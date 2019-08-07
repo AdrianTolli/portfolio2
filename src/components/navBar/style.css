@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #6a91be;
+  height: 35px;
+}
+
+.nameDiv {
+  color: white;
+  font-weight: bolder;
+  font-size: 32px;
+}
+
+.navbarButtons {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.spanButton {
+  padding: 6px;
+  color: white;
+  background-color: #224781;
+}
+.spanButton:hover {
+  cursor: pointer;
+}
+
+.highlighted {
+  background-color: #436892;
+}

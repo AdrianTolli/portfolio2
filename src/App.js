@@ -1,26 +1,49 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import NavBar from "./components/navBar";
+import Home from "./components/home";
+import About from "./components/about";
+import Projects from "./components/projects";
+import StartPage from "./components/startPage";
+
+class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      display: "home"
+    };
+
+    this.renderPage = this.renderPage.bind(this);
+    this.changeDisplay = this.changeDisplay.bind(this);
+  }
+
+  renderPage() {
+    var returnInfo = null;
+    this.state.display === "home"
+      ? (returnInfo = <Home />)
+      : this.state.display === "about"
+      ? (returnInfo = <About />)
+      : this.state.display === "projects"
+      ? (returnInfo = <Projects />)
+      : (returnInfo = <StartPage />);
+    return returnInfo;
+  }
+
+  changeDisplay(page) {
+    this.setState({
+      display: page
+    });
+  }
+
+  render() {
+    return (
+      <div>
+        <NavBar buttonClicked={this.changeDisplay} />
+        {this.renderPage()}
+      </div>
+    );
+  }
 }
 
 export default App;
