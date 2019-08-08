@@ -9,8 +9,8 @@ class Projects extends Component {
     this.state = {
       displayedProject: "spisekart",
       projectText:
-        "Spisekart is a tool for restaurant owners to create and maintain their menu online. Using heroku they create their own user, where they can create multiple restaurants and add/delete/edit dishes. They can also create their own domain, and the menu will be available at www.domain.spisekart.com. Available at ",
-      projectLink: "www.spisekart.herokuapp.com"
+        "Spisekart is a tool created for restaurant owners to create a free online menu. The admin tool is written in react and hosted on heroku, it communicates with a backend written in Elixir hosted on Amazon aws. Available at ",
+      projectLink: "https://spisekart.herokuapp.com"
     };
 
     this.changeProject = this.changeProject.bind(this);
@@ -22,15 +22,15 @@ class Projects extends Component {
       this.setState({
         displayedProject: newProject,
         projectText:
-          "Spisekart is a tool for restaurant owners to create and maintain their menu online. Using heroku they create their own user, where they can create multiple restaurants and add/delete/edit dishes. They can also create their own domain, and the menu will be available at www.domain.spisekart.com. Available at ",
-        projectLink: "www.spisekart.herokuapp.com"
+          "Spisekart is a tool created for restaurant owners to create a free online menu. The admin tool is written in react and hosted on heroku, it communicates with a backend written in Elixir hosted on Amazon aws. Available at ",
+        projectLink: "https://spisekart.herokuapp.com"
       });
     } else if (newProject === "tft") {
       this.setState({
         displayedProject: newProject,
         projectText:
           "Tftbuilder is a website created to aid players in the League Of Legends mode Teamfight Tactics. The site shows available champions, items and their combinations, and has a team builder where users can create their own team and see what synergies they get. Available at ",
-        projectLink: "www.tftbuild.herokuapp.com"
+        projectLink: "https://tftbuild.herokuapp.com"
       });
     }
   }

@@ -20,8 +20,8 @@
 }
 .projectText {
   width: 899px;
-  border: 1px solid black;
-  margin-top: 474px;
+  margin-top: 484px;
+  font-family: sans-serif;
 }
 
 .project {
@@ -43,7 +43,7 @@
 }
 .button {
   color: white;
-  background-color: #224781;
+  background-color: #476391;
   border-radius: 5px;
   padding: 3px;
   margin: 6px;
