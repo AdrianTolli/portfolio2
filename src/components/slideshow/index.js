@@ -24,7 +24,7 @@ class Slideshow extends Component {
   nextSlide() {
     console.log("next clicked");
     var newValue = this.state.visibleSlide;
-    if (this.state.visibleSlide != 1) {
+    if (this.state.visibleSlide != 3) {
       this.setState({ visibleSlide: newValue + 1 });
     }
   }
@@ -50,6 +50,12 @@ class Slideshow extends Component {
             />{" "}
             <span
               className={`dot ${this.state.visibleSlide === 1 ? "dotted" : ""}`}
+            />{" "}
+            <span
+              className={`dot ${this.state.visibleSlide === 2 ? "dotted" : ""}`}
+            />{" "}
+            <span
+              className={`dot ${this.state.visibleSlide === 3 ? "dotted" : ""}`}
             />{" "}
           </div>
         </div>

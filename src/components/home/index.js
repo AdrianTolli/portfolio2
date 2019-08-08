@@ -18,11 +18,9 @@ class Home extends Component {
             </p>
             <p>
               I've jet to obtain my first job in this field, and if you're
-              reading this you might be considering me for a position. Keep in
-              mind that I've never worked as a frontend developer and therefore
-              my skills might be lesser than others, but my learning curve will
-              be sky high! Imagine what I could do if I worked 8 hours a day
-              with web development.
+              reading this you might be considering me for a position. Hopefully
+              you will give me a call, invite me to an interview, offer me a
+              well paid job, I accept and live happily ever after.
             </p>
           </div>
         </div>
