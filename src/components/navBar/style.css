@@ -1,44 +1,67 @@
 .navbar {
+  position: fixed;
+  height: 99%;
   display: flex;
+  flex-direction: column;
+  width: 20%;
   justify-content: space-between;
-  background-color: #6a91be;
-  height: 35px;
+  background-color: #292929;
+  margin: 6px;
 }
 
 .nameDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   color: white;
-  font-weight: bolder;
   font-size: 32px;
+  margin: 6px;
+}
+.workTitle {
+  font-size: 16px;
+}
+.imgDiv {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+}
+
+.imgDiv img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
 }
 
 .navbarButtons {
-  width: 50%;
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  flex-direction: column;
+  height: 60%;
 }
 
 .spanButton {
+  font-size: 24px;
   padding: 6px;
   color: white;
-  background-color: #476391;
   transition: 0.25s;
-  margin-left: 12px;
+  margin-top: 2px;
 }
 .spanButton:hover {
   cursor: pointer;
   background-color: white;
-  color: #476391;
+  color: #292929;
 }
 
-.highlighted {
-  background-color: #436892;
+.childButtons {
+  display: flex;
+  flex-direction: column;
+}
+.childButton {
+  font-size: 18px;
 }
 
 .socials {
-  position: absolute;
-  top: 35px;
-  right: 0%;
 }
 
 .socials img {

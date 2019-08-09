@@ -1,12 +1,6 @@
 .infoBracket {
   width: 500px;
 }
-.headline {
-  font-size: 72px;
-  font-weight: bolder;
-  color: #6a91be;
-  text-align: center;
-}
 
 .aboutMain {
   display: flex;

@@ -1,0 +1,19 @@
+.mainContainer {
+  display: flex;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.rightContent {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25%;
+}
+
+.headline {
+  font-size: 72px;
+  font-weight: bolder;
+  color: #6a91be;
+  text-align: center;
+  margin: 6px;
+}
