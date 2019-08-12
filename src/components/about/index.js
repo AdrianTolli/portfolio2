@@ -11,14 +11,14 @@ class About extends Component {
             <p>My hobbies are programming, volleyball and exercise!</p>
             <p>
               Right now I use technologies like JavaScript, React, HTML5 and
-              CSS3 to create my websites. I would like to exoand my knowledge
+              CSS3 to create my websites. I would like to expand my knowledge
               and learn new technologies.
             </p>
             <p>
-              I've played volleyball from over a decade, and would like to keep
-              playing on my spare time as long as I can.
+              I've been playing volleyball for over a decade, and I'm still as
+              passionate about it as I was when I first began.
             </p>
-            <p>I exercise regulary, either volleyball or running.</p>
+            <p>I exercise regularly, either volleyball or running.</p>
           </div>
           <div>
             <img src={require("../../images/FIL_portrait.jpg")} />
