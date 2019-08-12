@@ -68,6 +68,15 @@ class NavBar extends Component {
             </span>
           </div>
         </div>
+        <div className="downloads">
+          <img src={require("../../images/cv_icon.png")} />
+          <a
+            href={require("../../files/Adrian_tollisen_CV.pdf")}
+            download="Adrian_tollisen_CV.pdf"
+          >
+            Download my CV
+          </a>
+        </div>
       </div>
     );
   }

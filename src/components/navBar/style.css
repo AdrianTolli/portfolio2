@@ -1,12 +1,11 @@
 .navbar {
   position: fixed;
-  height: 99%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   width: 20%;
   justify-content: space-between;
   background-color: #292929;
-  margin: 6px;
 }
 
 .nameDiv {
@@ -68,4 +67,16 @@
   height: 36px;
   width: 36px;
   margin: 12px;
+}
+
+.downloads {
+  margin: 0 0 6px 0;
+}
+.downloads img {
+  height: 36px;
+  width: 28px;
+}
+.downloads a {
+  color: white;
+  text-decoration: none;
 }
