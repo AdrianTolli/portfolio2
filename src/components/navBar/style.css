@@ -82,6 +82,8 @@
 .expandButton {
   display: flex;
   flex-direction: column;
+  width: fit-content;
+  align-self: center;
   text-align: center;
 }
 .expandButton:hover {
