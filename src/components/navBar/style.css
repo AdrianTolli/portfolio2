@@ -5,7 +5,7 @@
   flex-direction: column;
   width: 20%;
   justify-content: space-between;
-  background-color: #292929;
+  background-color: #363636;
 }
 
 .nameDiv {
@@ -33,10 +33,11 @@
 }
 
 .navbarButtons {
-  width: 100%;
+  width: 20%;
   display: flex;
   flex-direction: column;
-  height: 60%;
+  position: fixed;
+  top: 35%;
 }
 
 .spanButton {
@@ -49,7 +50,7 @@
 .spanButton:hover {
   cursor: pointer;
   background-color: white;
-  color: #292929;
+  color: #363636;
 }
 
 .childButtons {
@@ -69,14 +70,47 @@
   margin: 12px;
 }
 
-.downloads {
-  margin: 0 0 6px 0;
+.contact {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: fit-content;
+  margin: 6px;
 }
-.downloads img {
-  height: 36px;
+
+.expandButton {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.expandButton:hover {
+  cursor: pointer;
+}
+.contactInfo {
+  visibility: hidden;
+  height: 0;
+  transition: 0.4s;
+}
+.contactInfo img {
+  height: 28px;
   width: 28px;
+  margin-right: 2px;
 }
-.downloads a {
+.contactInfo a {
   color: white;
   text-decoration: none;
+}
+.visibleContact {
+  visibility: visible;
+  height: 100%;
+}
+
+.contactInfoItem {
+  display: table;
+}
+.contactInfoItem span,
+.contactInfoItem a {
+  display: table-cell;
+  vertical-align: middle;
 }
