@@ -82,6 +82,7 @@
 .expandButton {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   width: fit-content;
   align-self: center;
   text-align: center;
@@ -90,9 +91,11 @@
   cursor: pointer;
 }
 .contactInfo {
-  visibility: hidden;
-  height: 0;
-  transition: 0.4s;
+  overflow: hidden;
+  max-height: 200px;
+
+  transition-property: all;
+  transition-duration: 1s;
 }
 .contactInfo img {
   height: 28px;
@@ -103,9 +106,8 @@
   color: white;
   text-decoration: none;
 }
-.visibleContact {
-  visibility: visible;
-  height: 100%;
+.contactDown {
+  max-height: 0px;
 }
 
 .contactInfoItem {

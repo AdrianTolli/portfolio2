@@ -89,7 +89,7 @@ class NavBar extends Component {
           </div>
           <div
             className={`contactInfo ${
-              this.state.contactExpanded != true ? "" : "visibleContact"
+              this.state.contactExpanded != true ? "contactDown" : ""
             }`}
           >
             <div className="contactInfoItem">

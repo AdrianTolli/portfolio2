@@ -53,7 +53,7 @@ class App extends Component {
       this.setState({
         currProject: newProject,
         projectText:
-          "Tftbuilder is a website created to aid players in the League Of Legends mode Teamfight Tactics. The site shows available champions, items and their combinations, and has a team builder where users can create their own team and see what synergies they get. Available at ",
+          "TFT Builder is a website created to aid players in the League Of Legends mode Teamfight Tactics. The site shows available champions, items and their combinations, and has a team builder where users can create their own team and see what synergies they get. Available at ",
         projectLink: "https://tftbuild.herokuapp.com"
       });
     }

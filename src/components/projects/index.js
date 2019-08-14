@@ -20,7 +20,9 @@ class Projects extends Component {
   render() {
     return (
       <div className="projectsMain">
-        <div className="headline">Projects</div>
+        <div className="headline">
+          {this.props.project === "spisekart" ? "Spisekart" : "TFT Builder"}
+        </div>
         <div className="projects">
           <div className="projectsContainer">
             {this.renderSlideshow()}
