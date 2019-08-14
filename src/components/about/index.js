@@ -10,9 +10,9 @@ class About extends Component {
           <div className="infoBracket">
             <p>My hobbies are programming, volleyball and exercise!</p>
             <p>
-              Right now I use technologies like JavaScript, React, HTML5 and
-              CSS3 to create my websites. I would like to expand my knowledge
-              and learn new technologies.
+              Right now I use technologies like JavaScript, React, HTML and CSS
+              to create my websites. I would like to expand my knowledge and
+              learn new technologies.
             </p>
             <p>
               I've been playing volleyball for over a decade, and I'm still as

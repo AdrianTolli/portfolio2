@@ -32,7 +32,7 @@ class NavBar extends Component {
           <div className="imgDiv">
             <img src={require("../../images/portrait.jpg")} />
           </div>
-          Adrian Tollisen
+          <span>Adrian Tollisen</span>
           <span className="workTitle">Junior Developer</span>
           <div className="socials">
             <a href="https://www.github.com/AdrianTolli">
