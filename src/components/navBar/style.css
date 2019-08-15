@@ -56,9 +56,10 @@
 .childButtons {
   display: flex;
   flex-direction: column;
+  padding-left: 24px;
 }
 .childButton {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .socials {

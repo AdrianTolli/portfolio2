@@ -36,10 +36,10 @@ class NavBar extends Component {
           <span className="workTitle">Junior Developer</span>
           <div className="socials">
             <a href="https://www.github.com/AdrianTolli">
-              <img src="https://image.flaticon.com/icons/png/512/37/37318.png" />
+              <img src={require("../../images/github_icon.png")} />
             </a>
             <a href="https://www.linkedin.com/in/adrian-tollisen-5765aa8a/">
-              <img src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG27.png" />
+              <img src={require("../../images/linkedin_icon.png")} />
             </a>
           </div>
         </div>
@@ -71,14 +71,14 @@ class NavBar extends Component {
               className="spanButton childButton"
               value="spisekart"
             >
-              - Spisekart
+              Spisekart
             </span>
             <span
               onClick={() => this.projectButton("projects", "tft")}
               className="spanButton childButton"
               value="tft"
             >
-              - Tft builder
+              Tft builder
             </span>
           </div>
         </div>
